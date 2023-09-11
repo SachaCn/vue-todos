@@ -64,7 +64,7 @@ const deleteTodo = (todoId) => {
     </ul>
     <p class="todos-msg" v-else>
       <Icon icon="noto-v1:sad-but-relieved-face" width="22" />
-      <span>You have bo todo's to complete! Add one!</span>
+      <span>You have no todo's to complete! Add one!</span>
     </p>
     <p v-if="todoCompleted && todoList.length > 0" class="todos-msg">
       <Icon icon="noto-v1:party-popper" width="22" />
